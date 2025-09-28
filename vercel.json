@@ -1,4 +1,7 @@
+// vercel.json
 {
   "installCommand": "npm install",
-  "buildCommand": "npm run build"
+  "buildCommand": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --minify",
+  // Adicione esta linha:
+  "outputDirectory": "." 
 }
