@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Você pode adicionar seu CSS personalizado aqui embaixo, se precisar */
+
+body {
+    background-color: #f6f7f8;
+}
+
